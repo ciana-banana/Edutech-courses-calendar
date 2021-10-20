@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Dati Edutech</title>
+
+	<link href="style.css" type="text/css" rel="stylesheet">
+
+
+	<link href="./Style/fontawesome.all.css" rel="stylesheet">
+	<link href="./Style/bootstrap-adevico.min.css" rel="stylesheet">
+	<!-- Col Master -->
+	<link href="./Style/Styles.css" type="text/css" rel="stylesheet">
+	<link href="./Style/Reset_UI_2017.css" type="text/css" rel="stylesheet">
+	<!-- Latex -->
+	<link rel="Stylesheet" href="./Style/statistiche.css">
+	<link rel="Stylesheet" href="./Style/Latex.css">
+	<link rel="Stylesheet" href="./Style/Latex.css" media="print">
+
+	<script type="text/javascript" src="./Scripts/Latex.js"></script>
+
+
+	<!-- 
+		<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/Style/Latex/Latex.js?v=94"></script>
+	-->
+
+	<!-- Localizations-->
+	<script type="text/javascript" src="./Scripts/localization.it-IT.js"></script>
+	<!-- CPH Header -->
+
+
+
+	<script type="text/javascript" src="./Scripts/localization.helpers.js"></script>
+
+	<!-- JQuery -->
+	<link href="./Style/jquery-ui-1.10.4.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="./Scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./Scripts/modernizr-2.8.3.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery-ui-1.10.4.min.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.blockUI.min.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.tools.126.min.js"></script>
+
+	<script type="text/javascript" src="./Scripts/AdvExplorerMessage.js" id="scriptForAdvExplorerMessage"
+		data-language-code="it-IT"></script>
+
+	<!-- Altri script servizi globali -->
+	<script type="text/javascript" src="./Scripts/jquery.notice.js"></script>
+
+	<link rel="Stylesheet" href="./Scripts/jquery.notice.css">
+
+	<!--Stili skin-->
+	<link href="./Style/Refactor.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./Style/Main.css?v=71">
+	<!-- Javascript confirmation-->
+	<script type="text/javascript" src="./Scripts/jquery.needConfirm.js"></script>
+	<script type="text/javascript" src="./Scripts/jquery.needConfirm.base.js"></script>
+
+	<!-- Vari ed eventuali -->
+	<script src="./Style/WebResource.axd" type="text/javascript"></script>
+	<script src="./Style/ScriptResource.axd" type="text/javascript"></script>
+
+
+
+
+	<style>
+		#page-box #container {
+			background-color: #fff;
+			< !-- background-color: #f0f0f0;
+			-->margin: 0px !important;
+			width: 100% !important;
+		}
+
+		#page-box #container #content div.DIV_MP_Content {
+			background-color: #fff;
+
+		}
+	</style>
+	<style>
+		.pathInfoContainer .rounded-left {
+			border-top-left-radius: 1em !important;
+			border-bottom-left-radius: 1em !important;
+		}
+
+		.titolocorsi {
+
+			width: 100%;
+			height: 90px;
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+			background: #fff;
+			position: relative;
+		}
+	</style>
+
+</head>
+
+<body class="_UsrType18">
+
+	<div id="header" class="">
+		<!-- toolbar OK: V3.0b8-->
+		<div id="toolbar">
+			<div class="page-width row">
+				<div class="_containerLogo col-6">
+
+					<a href="#">
+						<img src="./TopLogo.png" alt="Home Page" title="Home Page" class="logo">
+					</a>
+				</div>
+				<div id="_tools" class="col-6 text-right">
+					<img src="./TopMenu.png" alt="Top Menu">
+				</div>
+			</div>
+		</div>
+		<!-- end toolbar -->
+
+		<!--container-->
+	</div>
+	<div id="page-box">
+		<div id="container" class="page-width shadowed bottom-rounded">
+			<div id="content">
+
+				<div class="page-width">
+					<div id="serviceinfo" class="RigaTitolo serviceinfo " style="margin-top: 5px;padding-left: 5px;">
+						<div class="TitleContainer">
+							<div class="NameContainer">
+								<span id="ctl00_LBcommunityName" title="Portale" class="communityName">
+									Ambiente di test - Titolo allungato parecchio per test impaginazioni e con
+									l'aggiunta di tutti i tag ed
+									ulteriore testo perché deve essere più lungo della comunità più lunga che ora ha 167
+									caratteri.
+								</span>
+							</div>
+							<div class="serviceName"
+								style="display: inline;font-size: 12px;line-height: 20px;margin-bottom: 4px;text-transform: uppercase;font-weight:normal;font-variant: normal;font-weight: normal;">
+								<span id="ctl00_LBtitolo">
+									Titolo del servizio
+								</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div id="nav-main">
+					<div class="page-width">
+						<img src="./BottomMenu.png" width="100%" class="mt-2">
+					</div>
+				</div>
+
+				<div class="DIV_MP_Content ">
+
+					<!--  CONTENUTO -->
+					<br>
+					<div class="row">
+						<div class="col-12 text-right">
+							<div class="btn-group btn-group-toggle flex-wrap" data-toggle="buttons">
+								<label class="btn btn-secondary">
+									<input type="radio" name="options" id="option1" autocomplete="off"> Nuova lezione
+								</label>
+								<label class="btn btn-secondary">
+									<input type="radio" name="options" id="option2" autocomplete="off"> Nuovo webinar
+								</label>
+								<label class="btn btn-secondary">
+									<input type="radio" name="options" id="option3" autocomplete="off"> Registro
+									generale
+								</label>
+							</div>
+
+						</div>
+						<div class="col-12">
+							<div class="row pt-2 ">
+								<div class="col-2">
+									<span class="h5">
+										Data <i class="fas fa-sort-amount-down-alt"></i>
+									</span>
+								</div>
+								<div class="col-10 col-lg-6">
+									<div class="btn-group btn-group-toggle" data-toggle="buttons">
+										<label class="btn btn-secondary" disabled>
+											<input type="radio" name="options" id="option1" autocomplete="off">All
+										</label>
+										<label class="btn btn-secondary">
+											<input type="radio" name="options" id="option2" autocomplete="off"> Prossime
+										</label>
+										<label class="btn btn-light">
+											<input type="radio" name="options" id="option3" autocomplete="off">
+											Completate
+										</label>
+										<label class="btn btn-warning">
+											<input type="radio" name="options" id="option3" autocomplete="off">
+											Sincronizzate
+										</label>
+										<label class="btn btn-success">
+											<input type="radio" name="options" id="option3" autocomplete="off"> Chiuse
+										</label>
+									</div>
+								</div>
+
+								<div class="col-12 col-lg-4">
+									<div class="btn-group btn-group-toggle" data-toggle="buttons">
+										<label class="btn btn-secondary">
+											<input type="radio" name="options" id="option1" autocomplete="off">Sync
+											tutto
+										</label>
+										<label class="btn btn-secondary">
+											<input type="radio" name="options" id="option2" autocomplete="off"> Chiudi
+											tutto
+										</label>
+										<label class="btn btn-secondary">
+											<input type="radio" name="options" id="option3" autocomplete="off"> Esporta
+											presenze
+										</label>
+									</div>
+								</div>
+
+
+							</div>
+
+
+						</div>
+					</div>
+
+
+
+
+
+
+
+					<hr>
+					<br>
+					<div class="card my-2 border-left-secondary">
+
+
+
+						<div class="card-header">
+							<div class="row">
+
+								<div class="col-4 col-md-2">
+									<a title="Scarica Calendario Outlook (.ics)"
+										class="btn btn-default pb-3 pt-3 dayButton d-print-inline-block"
+										href="javascript:__doPostBack('ctl00$CPHservice$RPTitemsDetails$ctl00$LKBics','')">
+
+										<h2 class="mb-0" id="30">
+											<span class="h4"><i class="fa fa-calendar-alt"></i></span><br>
+											Lun 07
+										</h2>
+										<h5 class="mb-0">
+											Gennaio
+										</h5>
+
+									</a>
+								</div>
+
+
+								<div class="col-12 col-md-10">
+
+									<div class="row">
+										<div class="col-8 text-left pt-3">
+											<span class="h5">
+												<i class="fas fa-video"></i>
+											</span>
+											<span class="h4">
+												Incontro preliminare - introduzione al test
+											</span>
+										</div>
+										<div class="col-4 text-right pt-3">
+											<span class="btn btn-secondary no-pointer d-print-inline-block">
+												<i class="fas fa-user-friends"></i>
+												<span class="d-inline">Presente</span>
+
+											</span>
+											<a class="btn btn-default" href="#">
+												<i class="fa fa-edit"></i>
+												<span class="d-none">Modifica</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-download"></i>
+												<span class="d-none">Download</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-times"></i>
+												<span class="d-none">Delete</span>
+											</a>
+										</div>
+										<div class="col-6 col-sm-6 col-md-4 ">
+											<br>
+											<span>
+												<span><b> ore </b>: 08:30 - 10:30</span>
+											</span>
+										</div>
+
+										<div class="col-6 col-sm-6 col-md-4  text-justify">
+											<br>
+											<div class="text-justify" style="">
+												<span class=""> <i class="fas fa-map-marker-alt"></i> Webinar/Meeting/luogo aula</span>
+
+
+											</div>
+										</div>
+										<div class="col-12 col-md-8 text-left pt-3">
+											<hr>
+											<span>
+												Descrizione: Ambiente di test - Titolo allungato parecchio per test
+												impaginazioni e con l'aggiunta di tutti i tag ed ulteriore testo
+												perché deve essere più lungo della comunità più lunga che ora ha
+												167 caratteri.
+											</span>
+										</div>
+										<div class="col-12 col-md-4 pt-3 "><br class="d-none d-sm-block"><br
+												class="d-none d-sm-block">
+											<a title="Accedi" class="btn btn-default btn-lg" style="width: 100%; "
+												target="_blank">Accedi</a>
+
+										</div>
+										<div class="col-12 pt-3">
+
+											<hr>
+											<div class="row">
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-film"></i>Lezione 1 - GMT2021068-063626</a>
+												</div>
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-file-pdf"></i>Slide 2 - Requisiti.pdf</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<br>
+					<div class="card my-2 border-left-secondary">
+
+
+
+						<div class="card-header">
+							<div class="row">
+
+								<div class="col-4 col-md-2">
+									<a title="Scarica Calendario Outlook (.ics)"
+										class="btn btn-default pb-3 pt-3 dayButton d-print-inline-block"
+										href="javascript:__doPostBack('ctl00$CPHservice$RPTitemsDetails$ctl00$LKBics','')">
+
+										<h2 class="mb-0" id="30">
+											<span class="h4"><i class="fa fa-calendar-alt"></i></span><br>
+											Mar 08
+										</h2>
+										<h5 class="mb-0">
+											Febbraio
+										</h5>
+
+									</a>
+								</div>
+
+
+								<div class="col-12 col-md-10">
+
+									<div class="row">
+										<div class="col-7 text-left pt-3">
+											<span class="h5">
+												<i class="fas fa-qrcode"></i>
+											</span>
+											<span class="h4">
+												Incontro preliminare - introduzione al test
+											</span>
+										</div>
+										<div class="col-5 text-right pt-3">
+											<span class="btn btn-secondary no-pointer d-print-inline-block">
+												<i class="fas fa-user-friends"></i>
+												<span class="d-inline">Presente</span>
+
+											</span>
+											<a class="btn btn-default" href="#">
+												<i class="fa fa-edit"></i>
+												<span class="d-none">Modifica</span>
+											</a>
+											<a class="btn btn-default d-none" href="#">
+												<i class="fas fa-download"></i>
+												<span class="d-none">Download</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-clipboard-list"></i>
+												<span class="d-none">Registro Presenze</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fa fa-address-card"></i>
+												<span class="d-none">QR code per registro Presenze</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-times"></i>
+												<span class="d-none">Delete</span>
+											</a>
+										</div>
+										<div class="col-6 col-sm-6 col-md-4 ">
+											<br>
+											<span>
+												<span><b> ore </b>: 08:30 - 10:30</span>
+											</span>
+										</div>
+
+										<div class="col-6 col-sm-6 col-md-4  text-justify">
+											<br>
+											<div class="text-justify" style="">
+												<span class=""> <i class="fas fa-map-marker-alt"></i> Webinar/Meeting/luogo aula</span>
+
+
+											</div>
+										</div>
+										<div class="col-12 col-md-8 text-left pt-3">
+											<hr>
+											<span>
+												Descrizione: Ambiente di test - Titolo allungato parecchio per test
+												impaginazioni e con l'aggiunta di tutti i tag ed ulteriore testo
+												perché deve essere più lungo della comunità più lunga che ora ha
+												167 caratteri.
+											</span>
+										</div>
+										<div class="col-12 pt-3">
+											<hr>
+											<div class="row">
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-film"></i>Lezione 1 - GMT2021068-063626</a>
+												</div>
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-file-pdf"></i>Slide 2 - Requisiti.pdf</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<br>
+					<div class="card my-2 border-left-secondary">
+
+
+
+						<div class="card-header">
+							<div class="row">
+
+								<div class="col-4 col-md-2">
+									<a title="Scarica Calendario Outlook (.ics)"
+										class="btn btn-default pb-3 pt-3 dayButton d-print-inline-block"
+										href="javascript:__doPostBack('ctl00$CPHservice$RPTitemsDetails$ctl00$LKBics','')">
+
+										<h2 class="mb-0" id="30">
+											<span class="h4"><i class="fa fa-calendar-alt"></i></span><br>
+											Mer 09
+										</h2>
+										<h5 class="mb-0">
+											Marzo
+										</h5>
+
+									</a>
+								</div>
+
+
+								<div class="col-12 col-md-10">
+
+									<div class="row">
+										<div class="col-8 text-left pt-3">
+											<span class="h5">
+												<i class="fas fa-chalkboard-teacher"></i>
+											</span>
+											<span class="h4">
+												Incontro preliminare - introduzione al test
+											</span>
+										</div>
+										<div class="col-4 text-right pt-3">
+											<span class="btn btn-secondary no-pointer d-print-inline-block">
+												<i class="fas fa-user-friends"></i>
+												<span class="d-inline">Presente</span>
+
+											</span>
+											<a class="btn btn-default" href="#">
+												<i class="fa fa-edit"></i>
+												<span class="d-none">Modifica</span>
+											</a>
+											<a class="btn btn-default d-none" href="#">
+												<i class="fas fa-download"></i>
+												<span class="d-none">Download</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-times"></i>
+												<span class="d-none">Delete</span>
+											</a>
+										</div>
+										<div class="col-6 col-sm-6 col-md-4 ">
+											<br>
+											<span>
+												<span><b> ore </b>: 08:30 - 10:30</span>
+											</span>
+										</div>
+
+										<div class="col-6 col-sm-6 col-md-4  text-justify">
+											<br>
+											<div class="text-justify" style="">
+												<span class=""><i class="fas fa-map-marker-alt"></i> Webinar/Meeting/luogo aula</span>
+
+
+											</div>
+										</div>
+										<div class="col-12 col-md-8 text-left pt-3">
+											<hr>
+											<span>
+												Descrizione: Ambiente di test - Titolo allungato parecchio per test
+												impaginazioni e con l'aggiunta di tutti i tag ed ulteriore testo
+												perché deve essere più lungo della comunità più lunga che ora ha
+												167 caratteri.
+											</span>
+										</div>
+										<!-- <div class="col-12 col-md-4 pt-3 "><br class="d-none d-sm-block"><br
+												class="d-none d-sm-block">
+											<a title="Accedi" class="btn btn-default btn-lg" style="width: 100%; "
+												target="_blank">Accedi</a>
+
+										</div> -->
+										<div class="col-12 pt-3">
+											<hr>
+											<div class="row">
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-film"></i>Lezione 1 - GMT2021068-063626</a>
+												</div>
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-file-pdf"></i>Slide 2 - Requisiti.pdf</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<br>
+					<div class="card my-2 border-left-secondary">
+
+
+
+						<div class="card-header">
+							<div class="row">
+
+								<div class="col-4 col-md-2">
+									<a title="Scarica Calendario Outlook (.ics)"
+										class="btn btn-default pb-3 pt-3 dayButton d-print-inline-block"
+										href="javascript:__doPostBack('ctl00$CPHservice$RPTitemsDetails$ctl00$LKBics','')">
+
+										<h2 class="mb-0" id="30">
+											<span class="h4"><i class="fa fa-calendar-alt"></i></span><br>
+											Gio 10
+										</h2>
+										<h5 class="mb-0">
+											Aprile
+										</h5>
+
+									</a>
+								</div>
+
+
+								<div class="col-12 col-md-10">
+
+									<div class="row">
+										<div class="col-8 text-left pt-3">
+											<span class="h5">
+												<i class="fab fa-google"></i>
+											</span>
+											<span class="h4">
+												Incontro preliminare - introduzione al test
+											</span>
+										</div>
+										<div class="col-4 text-right pt-3">
+											<span class="btn btn-secondary no-pointer d-print-inline-block">
+												<i class="fas fa-user-friends"></i>
+												<span class="d-inline">Presente</span>
+
+											</span>
+											<a class="btn btn-default" href="#">
+												<i class="fa fa-edit"></i>
+												<span class="d-none">Modifica</span>
+											</a>
+											<a class="btn btn-default d-none" href="#">
+												<i class="fas fa-download"></i>
+												<span class="d-none">Download</span>
+											</a>
+											<a class="btn btn-default" href="#">
+												<i class="fas fa-times"></i>
+												<span class="d-none">Delete</span>
+											</a>
+										</div>
+										<div class="col-6 col-sm-6 col-md-4 ">
+											<br>
+											<span>
+												<span><b> ore </b>: 08:30 - 10:30</span>
+											</span>
+										</div>
+
+										<div class="col-6 col-sm-6 col-md-4  text-justify">
+											<br>
+											<div class="text-justify" style="">
+												<span class=""><i class="fas fa-map-marker-alt"></i> Webinar/Meeting/luogo aula</span>
+
+
+											</div>
+										</div>
+										<div class="col-12 col-md-8 text-left pt-3">
+											<hr>
+											<span>
+												Descrizione: Ambiente di test - Titolo allungato parecchio per test
+												impaginazioni e con l'aggiunta di tutti i tag ed ulteriore testo
+												perché deve essere più lungo della comunità più lunga che ora ha
+												167 caratteri.
+											</span>
+										</div>
+										<div class="col-12 col-md-4 pt-3 "><br class="d-none d-sm-block"><br
+												class="d-none d-sm-block">
+											<a title="Accedi" class="btn btn-default btn-lg" style="width: 100%; "
+												target="_blank">Accedi</a>
+
+										</div>
+										<div class="col-12 pt-3">
+											<hr>
+											<div class="row">
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-film"></i>Lezione 1 - GMT2021068-063626</a>
+												</div>
+												<div class="col-sm-12 col-4 col-lg-4 mt-2">
+													<a><i class="fas fa-file-pdf"></i>Slide 2 - Requisiti.pdf</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<!-- FINE CONTENUTO -->
+
+
+
+	<!--Footer-->
+	<div id="cFooter">
+		<div class="container">
+
+			<div align="center" class="chiusura">
+				<ul class="Logos">
+
+				</ul>
+				<div class="footer_text">
+					<div style="text-align: center;">
+						<span style="font-size: 13px;"><strong>Edutech Srl</strong>
+							&nbsp;-&nbsp; tel. +39 0461 1865865 &nbsp;-&nbsp; fax +39 0461 1865866 -
+							web: <a href="http://www.edutech.it" target="_blank">www.edutech.it</a> - e-mail:
+							<a href="mailto:info@edutech.it">info@edutech.it</a><br>
+							posta certificata:
+							<a href="mailto:amministrazione@pec.edutech.it">amministrazione@pec.edutech.it</a><br>
+							C.F. e P. IVA: 02160210221 &nbsp;-&nbsp; REA n. TN - 20412</span>
+						<span style="font-size: 13px;">
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
